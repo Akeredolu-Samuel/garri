@@ -65,12 +65,9 @@ body {
   align-items: center;
   justify-content: center;
   gap: 12px;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   overflow-x: auto;
-  overflow-y: hidden;
   padding: 8px 16px;
-  background: #161c00;
-  border-bottom: 1px solid #2a3300;
   color: #dce8a0;
   font-size: 13px;
   scrollbar-width: thin;
