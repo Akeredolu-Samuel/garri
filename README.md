@@ -17,6 +17,29 @@ Open `index.html` in a browser, or:
 npx serve .
 ```
 
+## Deploy on Vercel
+
+This is a static site. No build. No env vars.
+
+1. Go to [vercel.com/new](https://vercel.com/new)
+2. Import **Akeredolu-Samuel/garri**
+3. Framework Preset: **Other**
+4. Leave Build Command empty
+5. Output Directory empty (root)
+6. Deploy
+
+Or from this folder:
+
+```bash
+npx vercel
+```
+
+Production:
+
+```bash
+npx vercel --prod
+```
+
 ## How to soak
 
 1. Pour the garri  
